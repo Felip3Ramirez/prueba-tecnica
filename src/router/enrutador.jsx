@@ -1,3 +1,4 @@
+import RutaProtegida from "../components/RutaProtegida";
 import ContenedorPrincipal from "../pages/ContenedorPrincipal";
 import ContenedorTareas from "../pages/ContenedorTareas";
 import Login from "../pages/Login";
@@ -14,7 +15,7 @@ export let enrutador = [
     },
     {
         path: '/tareas',
-        element: <ContenedorTareas/>
+        element: <RutaProtegida proteger={<ContenedorTareas/>}></RutaProtegida>
     },
     {
         path: '/',

@@ -46,7 +46,7 @@
 .link:hover{
   background: #0b7dda; color: white;
 }
-/*registro*************************************************************************************************************************/
+/*registro y login*************************************************************************************************************************/
 .contenedorRegistro{
   width: 100%;
   height: 100vh;
@@ -56,7 +56,6 @@
 .formularioRegistro{
   width: 100%;
   height: 50%;
-  /* border: solid 1px #000; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +69,6 @@
 .formulario{
   width: 50%;
   height: 50%;
-  /* border: solid 1px #000; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +76,7 @@
   
 }
 .formularioRegistro input{
+  color: black;
   margin: 1%;
   border-radius: 10px;
   width: 80%;
@@ -106,5 +105,24 @@ input::placeholder{
   color: white;
 }
 
-/*login*************************************************************************************************************************/
+/*tareas*************************************************************************************************************************/
 
+.paginaTareas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-color: #242424;
+  color: white;
+}
+.cabeceraTareas{
+  margin: 1%;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedorTareas{
+  
+}

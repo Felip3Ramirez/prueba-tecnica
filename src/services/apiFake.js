@@ -4,23 +4,27 @@ export function agregarUsuario(usuario) {
     usuarios.push(nuevoUsuario);
 }
 
-let usuarios = [
+export let usuarios = [
     {
-        "id":"1",
+        "id":"15",
         "nombre":"tomas",
         "cargo":"recursos humanos",
         "password":"1234"
     },
     {
-        "id":"2",
+        "id":"10",
         "nombre":"diana",
         "cargo":"operario",
         "password":"1234"
     }
 ]
+export function agregarTarea(tarea) {
+    const nuevoId = tareas.length + 1;
+    const nuevaTarea = { id: nuevoId.toString(), ...tarea };
+    tareas.push(nuevaTarea);
+}
 
-
-let tareas = [
+export let tareas = [
     {
         "id":"1",
         "nombre":"revisar documentos",
