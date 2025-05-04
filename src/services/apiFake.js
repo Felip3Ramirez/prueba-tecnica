@@ -1,4 +1,10 @@
-export let usuarios=[
+export function agregarUsuario(usuario){
+    const nuevoId = usuarios.length + 1
+    const nuevoUsuario = {id:nuevoId.toString(), ...usuario}
+    usuarios.push(nuevoUsuario);
+
+}
+let usuarios=[
     {
         "id":"1",
         "nombre":"tomas",
@@ -12,7 +18,9 @@ export let usuarios=[
         "password":"1234"
     }
 ]
-export let tareas=[
+
+
+let tareas=[
     {
         "id":"1",
         "nombre":"revisar documentos",
