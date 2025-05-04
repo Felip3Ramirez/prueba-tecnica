@@ -1,10 +1,10 @@
-export function agregarUsuario(usuario){
-    const nuevoId = usuarios.length + 1
-    const nuevoUsuario = {id:nuevoId.toString(), ...usuario}
+export function agregarUsuario(usuario) {
+    const nuevoId = usuarios.length + 1;
+    const nuevoUsuario = { id: nuevoId.toString(), ...usuario };
     usuarios.push(nuevoUsuario);
-
 }
-let usuarios=[
+
+let usuarios = [
     {
         "id":"1",
         "nombre":"tomas",
@@ -20,7 +20,7 @@ let usuarios=[
 ]
 
 
-let tareas=[
+let tareas = [
     {
         "id":"1",
         "nombre":"revisar documentos",
@@ -32,3 +32,4 @@ let tareas=[
         "descripcion":"ir antes donde el supervisor marcos en el 3 piso antes de salir del horario laboral"
     }
 ]
+
