@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import CrearTareas from "../components/CrearTarea";
 
 export default function ContenedorTareas() {
     function cerrarSesion() {
@@ -13,8 +14,8 @@ export default function ContenedorTareas() {
                 <h3>AGREGA UNA TAREA    </h3>
                 <Link className="link" onClick={cerrarSesion} to="/">Cerrar sesion</Link>
             </div>
-            <div className="contenedorTareas">
-                
+            <div className="">
+                <CrearTareas></CrearTareas>
             </div>
         </div>
 

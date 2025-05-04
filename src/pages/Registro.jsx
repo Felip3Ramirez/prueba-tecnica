@@ -4,10 +4,10 @@ import { agregarUsuario } from '../services/apiFake';
 
 
 export default function Registro() {
-    const [nombre, setNombre] = useState("");
     const [cargo, setCargo] = useState("");
     const [password, setPassword] = useState("");
-
+    const [nombre, setNombre] = useState("");
+    
     const navigate = useNavigate();
     const crearUsuario = (e) => {
         e.preventDefault();

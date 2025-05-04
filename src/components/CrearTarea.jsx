@@ -1,7 +1,7 @@
+import { useState } from "react";
 import { agregarTarea } from "../services/apiFake"
 
-
-export default function ContenedorTareas (){
+export default function CrearTareas (){
     const [nombre, setNombre] = useState("")
     const [descripcion, setDescripcion] = useState("")
     const crearTarea = (e) => {
@@ -16,7 +16,11 @@ export default function ContenedorTareas (){
     };
     return(
         <div className="contenedorTareas">
-            nom
+            <form action="">
+            <input onChange={(e) => setNombre(e.target.value)} type="text" placeholder="Nombre tarea"/>
+            <input onChange={(e) => setDescripcion(e.target.value)} type="text" placeholder="Descripcion tarea"/>
+            <button type="button" onClick={(e)=>crearTarea(e)}>Crear tarea</button>
+            </form>
         </div>
     )
 }
