@@ -1,12 +1,58 @@
-# React + Vite
+# Gestor de Tareas Internas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con React y Vite que permite gestionar tareas internas con autenticación de usuarios. Los usuarios pueden registrarse, iniciar sesión, crear y administrar sus tareas de manera sencilla y segura.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona este repositorio:
+   ```bash
+   git clone <URL-del-repositorio>
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd prueba-tecnica
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia la aplicación en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+## Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Accede a la página principal en `http://localhost:5173/` (o el puerto que indique la consola).
+- Regístrate en la sección **Registro** para crear una cuenta nueva.
+- Inicia sesión en la sección **Login** con tus credenciales.
+- Una vez autenticado, accede a la sección **Tareas** para crear y administrar tus tareas.
+- Puedes cerrar sesión usando el enlace disponible en la página de tareas.
+
+## Características
+
+- Registro y autenticación de usuarios.
+- Creación de tareas con nombre y descripción.
+- Visualización y gestión de tareas propias.
+- Protección de rutas para usuarios autenticados.
+- Cierre de sesión seguro.
+
+## Tecnologías utilizadas
+
+- React 19
+- Vite
+- React Router DOM
+- json-server (para API falsa)
+- ESLint para linting y calidad de código
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Puedes abrir un issue o enviar un pull request para mejorar la aplicación.
+
+## Licencia
+
+Este proyecto es privado y no tiene licencia pública.
+
+## Contacto
+
+Para cualquier duda o sugerencia, puedes contactarme a través del repositorio.
