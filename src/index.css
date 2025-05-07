@@ -27,7 +27,17 @@
   align-items: center;
   justify-content: center;
 }
+.tarjetaContenedora{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(78, 25, 78);
+  padding: 10px;
+  border-radius: 8px;
+}
 .contenedorBotones{
+  margin-top: -20px;
   height: 200px;
   width: 50vh;
   display: flex;
@@ -45,7 +55,32 @@
 }
 .link:hover{
   background: #0b7dda; color: white;
+}/*crear tarea*************************************************************************************************************************/
+
+.inputTarea{
+  background-color: #242424;
+  padding: 4px;
+  margin-right: 5px;
+  border: none;
+  border-bottom: #000 solid 1px;
 }
+.inputTarea::placeholder{
+  color: #969696;
+}
+.botonCrearTarea{
+  background-color: #107907;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
 /*registro y login*************************************************************************************************************************/
 .contenedorRegistro{
   width: 100%;
