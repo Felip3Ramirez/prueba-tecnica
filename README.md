@@ -6,7 +6,7 @@ Este proyecto es una aplicación web desarrollada con React y Vite que permite g
 
 1. Clona este repositorio:
    ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/Felip3Ramirez/prueba-tecnica.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
@@ -43,11 +43,8 @@ Este proyecto es una aplicación web desarrollada con React y Vite que permite g
 - Vite
 - React Router DOM
 - json-server (para API falsa)
-- ESLint para linting y calidad de código
 
-## Contribuciones
 
-Las contribuciones son bienvenidas. Puedes abrir un issue o enviar un pull request para mejorar la aplicación.
 
 ## Licencia
 
